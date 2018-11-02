@@ -1,10 +1,10 @@
 ---
 layout: none
-uid_prefix: https://github.com/androidstudygroup/conferences/tree/gh-pages/
+uid_prefix: https://github.com/DroidDevLatam/conferencias/tree/gh-pages
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:https://androidstudygroup.github.io/conferences/
+PRODID:https://droiddevlatam.github.io/conferencias/
 METHOD:PUBLISH
 {% for conference in site.conferences %}BEGIN:VEVENT
 UID:{{ page.uid_prefix }}{{ conference.relative_path }}
